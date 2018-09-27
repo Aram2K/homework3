@@ -80,10 +80,10 @@ console.log(triangleArea(5,20));
 
 //Create a function called numLength that takes a number and returns the number of characters in the number (example: numLength(8940); should return 4).  Hint: strings have .length, numbers don't - so make a string and then get the length
 
-const numLength = function(string){
-	return (string.length);
+const numLength = function(n){
+	return ((n+"").length);
 };
-console.log(numLength("This is my 3rd homework"));
+console.log(numLength(846568520));
 
 // Create a function that takes two strings and a number.  If the length of the two strings concatenated together is greater than the given number, return 1, else return -1
 
